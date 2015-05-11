@@ -22,6 +22,12 @@ We have already deployed this web-ui to our [github pages](http://worksap-ate.gi
 - Please set your docker-registry IP at "Set Registry IP" option. 
 - And you can use the Web UI.
 
+#### How to run with Docker
+
+```
+docker run -d -p 80:80 worksap-ate/docker-registry-ui
+```
+
 #### How to Install to your own server
 
 Download the source code and put these files to a web server.
